@@ -8,11 +8,12 @@
 - B.S., law and economics | The Hebrew University of Jerusalem (_May 2019_)
   dean's lists in the years 2016, 2017, 2018.
 - pass lawyers bar exam (_2020_)
-- Practical Data Science - 260 hours | Naya College (_2023_)
-- MLOPS  - 170 hours | Naya College (_2024_)
-#### Non-academic training between 2023-2024:
+- Practical Data Science - 260 hours, Naya College (_2023_)
+- MLOPS  - 170 hours, Naya College (_2024_)
+
+#### Non-academic training:
 - **IDF** - Cloud Economic management (Nimbus, AWS, GCP and Azure)
-- **Neo4j** graph-academy* - Neo4j Certified Professional
+- **Neo4j graph-academy** - Neo4j Certified Professional
 - **udmy** - MySQL Bootcamp
 - **Coursera** - Deep Learning Specialization by DeepLearning.AI ( 5 courses)
 
@@ -66,6 +67,7 @@ A personalized book recommendation system combining Matrix Factorization, One-Cl
 - User reading history and preferences
 - Book descriptions and cover images
 - Author-based user reviews
+
 The neural network implementation replicates Matrix Factorization while incorporating multiple data signals for accurate, personalized book recommendations based on users' reading history.
 ![books](/assets/img/books.png)
 
@@ -76,7 +78,6 @@ The neural network implementation replicates Matrix Factorization while incorpor
 
 This project uses Terraform to provision a basic web server infrastructure on AWS. It sets up a VPC, subnet, internet gateway, route table, security group, and an EC2 instance running Apache2.
 
-see more at [my GitHub page](https://github.com/YotamAflalo)
 
 ### 5. RAG Chatbot Evaluation System
 [project repo](https://github.com/YotamAflalo/RAG-Chatbot-Evaluation-System/tree/main)
@@ -86,7 +87,12 @@ Built an evaluation script for RAG-based chatbots that assesses:
 - Question-answer relevance
 - Hallucination detection
 - Context chunk selection quality
+
 The system provides quantitative metrics to measure RAG performance and identify areas for optimization.
+
+see more at [my GitHub page](https://github.com/YotamAflalo)
+
+
 ## Publications
 
 1. Re-examining the relationship between labor market concentration and monopsony power, using the minimum wage as a case study, Aflalo Yotam, 2023 [the peper](https://github.com/YotamAflalo/projects/blob/main/Re-examining%20the%20relationship%20between%20labor%20market%20concentration%20and%20monopsony%20power%2C%20using%20the%20minimum%20wage%20as%20a%20case%20study/Finel%20paper%20%20-%20Yotam%20Aflalo%20thesis%20-%20Re-examining%20the%20relationship%20between%20labor%20market%20concentration%20and%20monopsony%20power%2C%20using%20the%20minimum%20wage%20as%20a%20case%20study.pdf)
