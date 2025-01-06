@@ -1,12 +1,20 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Cypher, NEO4J, R
+#### Technical Skills: Python, SQL, AWS, Cypher, NEO4J, R, MLOPS, Docker
 
 ## Education
 - M.S., economics	| The Hebrew University of Jerusalem (_May 2023_)
   grade: 97, Dean's list 2023,graduation with first class honors award of excellence for the thesis work. 			        		
 - B.S., law and economics | The Hebrew University of Jerusalem (_May 2019_)
   dean's lists in the years 2016, 2017, 2018.
+- pass lawyers bar exam (_2020_)
+- Practical Data Science - 260 hours | Naya College (_2023_)
+- MLOPS  - 170 hours | Naya College (_2024_)
+#### Non-academic training between 2023-2024:
+- **IDF** - Cloud Economic management (Nimbus, AWS, GCP and Azure)
+- **Neo4j** graph-academy* - Neo4j Certified Professional
+- **udmy** - MySQL Bootcamp
+- **Coursera** - Deep Learning Specialization by DeepLearning.AI ( 5 courses)
 
 ## Work Experience
 **Legal Advisor and innovation officer (captain's rank) (_April 2019 - December 2024_)**
@@ -20,16 +28,15 @@
 - teaching assistant.
 
 ## Projects
-### A knowledge graph-based information storage and retrieval solution for chatbots in the Graph-RAG architecture
+### 1. Healthcare Chatbot with LLM-Langchain-Agent and Graph-RAG Architecture
+
 [project repo](https://github.com/YotamAflalo/chyper-graphRAG-with-langchain-and-neo4j)
 
-Storing information from thousands of pages in the field of healthcare in a knowledge graph, 
-and building a mechanism for retrieving knowledge with a chatbot interface using a smart agent based on the RAG tool, 
-retrieving information from a knowledge graph using cypher queries and a large language model.
+This project implements a chatbot utilizing a Graph-RAG architecture, built with Python and Neo4j. I created a knowledge graph from thousands of healthcare-related pages using state-of-the-art LLMs. The chatbot operates through a Langchain agent that leverages this knowledge graph as its knowledge base for answering questions. The agent employs text-to-Cypher techniques to query the knowledge graph and generate responses to user queries.
 
 ![Knowlage-graph-example](/assets/img/knowlage_graph_example.png)
 
-### MLOps-TeleChurnPredictor
+### 2. MLOps-TeleChurnPredictor
 
 [project repo](https://github.com/YotamAflalo/MLOps-TeleChurnPredictor)
 
@@ -44,33 +51,43 @@ The project include this features:
 - Whylogs data drift monitoring
 - Full CI/CD pipeline and testing
 
-The presenation of this project can be found [here](https://gamma.app/docs/Customer-Churn-Prediction-MLOps-System-klmmvju41ctqpmv): 
-#### System Architecture Diagram
+The presenation of this project can be found [here](https://gamma.app/docs/Customer-Churn-Prediction-MLOps-System-klmmvju41ctqpmv) 
+System Architecture Diagram;
 ![dashboard](/assets/img/mlops_architecture.png)
-#### System dashboard
+System dashboard:
 ![dashboard](/assets/img/dashboard.png)
 
-### book recommendation system
+### 3. Book Recommendation System with Hybrid Approach
+
 
 [project repo](https://github.com/YotamAflalo/projects/tree/main/book%20recommendation%20system)
 
-This project implements a Book Recommendation System using Matrix Factorization,One-Class SVM and deep learning. The goal is to provide users with personalized book recommendations based on their preferences and interactions with the system.
-The recommendation system we created is based on a neural network that we builted and trained in TensorFlow, which replicates the Matrix Factorization algorithm, and combines it with signals obtained from the book description, their cover image, and the user's reviews of other books by the same author.
-
-Our product is a recommendation system that is capable of providing accurate and high-quality predictions for the question - which book to recommend to the user, based on his reviews of books he has already read.
+A personalized book recommendation system combining Matrix Factorization, One-Class SVM, and deep learning. Built using TensorFlow, the system analyzes:
+- User reading history and preferences
+- Book descriptions and cover images
+- Author-based user reviews
+The neural network implementation replicates Matrix Factorization while incorporating multiple data signals for accurate, personalized book recommendations based on users' reading history.
 ![books](/assets/img/books.png)
 
 
-### Terraform with AWS Web server
+### 4. Terraform with AWS Web server
 
 [project repo](https://github.com/YotamAflalo/terraform-AWS-Web-Server-Project/tree/main)
 
 This project uses Terraform to provision a basic web server infrastructure on AWS. It sets up a VPC, subnet, internet gateway, route table, security group, and an EC2 instance running Apache2.
 
+see more at [my GitHub page](https://github.com/YotamAflalo)
 
+### 5. RAG Chatbot Evaluation System
+[project repo](https://github.com/YotamAflalo/RAG-Chatbot-Evaluation-System/tree/main)
+
+Built an evaluation script for RAG-based chatbots that assesses:
+- Answer accuracy
+- Question-answer relevance
+- Hallucination detection
+- Context chunk selection quality
+The system provides quantitative metrics to measure RAG performance and identify areas for optimization.
 ## Publications
 
-1. Aflalo Yotam Re-examining the relationship between labor market concentration and monopsony power, using the minimum wage as a case study, 2023 [the peper](https://github.com/YotamAflalo/projects/blob/main/Re-examining%20the%20relationship%20between%20labor%20market%20concentration%20and%20monopsony%20power%2C%20using%20the%20minimum%20wage%20as%20a%20case%20study/Finel%20paper%20%20-%20Yotam%20Aflalo%20thesis%20-%20Re-examining%20the%20relationship%20between%20labor%20market%20concentration%20and%20monopsony%20power%2C%20using%20the%20minimum%20wage%20as%20a%20case%20study.pdf)
-2. גיא מור ויותם אפללו, אישור בשתיקה: מנגנון ברירת מחדל לצמצום עלויות הרגולציה [the peper](https://drive.google.com/file/d/1JlepLzYYLhMBoA8ysD6Gk-g-Jz3WuXXR/view)
-
-- [GitHub page](https://github.com/YotamAflalo)
+1. Re-examining the relationship between labor market concentration and monopsony power, using the minimum wage as a case study, Aflalo Yotam, 2023 [the peper](https://github.com/YotamAflalo/projects/blob/main/Re-examining%20the%20relationship%20between%20labor%20market%20concentration%20and%20monopsony%20power%2C%20using%20the%20minimum%20wage%20as%20a%20case%20study/Finel%20paper%20%20-%20Yotam%20Aflalo%20thesis%20-%20Re-examining%20the%20relationship%20between%20labor%20market%20concentration%20and%20monopsony%20power%2C%20using%20the%20minimum%20wage%20as%20a%20case%20study.pdf)
+2.  אישור בשתיקה: מנגנון ברירת מחדל לצמצום עלויות הרגולציה, גיא מור ויותם אפללו, 2018 [the peper](https://drive.google.com/file/d/1JlepLzYYLhMBoA8ysD6Gk-g-Jz3WuXXR/view)
