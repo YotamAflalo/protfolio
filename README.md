@@ -46,41 +46,27 @@ The project include this features:
 
 The presenation of this project can be found [here](https://gamma.app/docs/Customer-Churn-Prediction-MLOps-System-klmmvju41ctqpmv): 
 #### System Architecture Diagram
-```mermaid
-graph TD
-    A[<b>API</b>] -->|Saves predictions| B[(<b>PostgreSQL DB</b>)]
-    A -->|Monitored by| C[<b>Prometheus</b>]
-    C -->|Visualized in| D[<b>Grafana</b>]
-    A -.->|Logs stored in| B
-    B -->|Daily API logs| E[<b>WhyLabs</b>]
-    F[<b>Batch Processing</b>] <-->|Reads/Writes| B
-    F <-->|Processes files| G[<b>Target Folder</b>]
-    F -->|Daily logs & predictions| E
-    H[<b>User</b>] -->|API requests| A
-    I[<b>Cron Job</b>] -->|Triggers daily| F
-    J[<b>MLOps Engineer</b>] -->|Views| D
-    D -->|Alerts| J
-
-    classDef primary fill:#e6f3ff,stroke:#333,stroke-width:2px;
-    classDef secondary fill:#d0e0e3,stroke:#333,stroke-width:2px;
-    classDef tertiary fill:#fff2cc,stroke:#333,stroke-width:2px;
-    classDef quaternary fill:#f2e6ff,stroke:#333,stroke-width:2px;
-    classDef default color:#000000;
-
-    class A,F primary;
-    class B,G secondary;
-    class C,D,E tertiary;
-    class H,I,J quaternary;
-```
+![dashboard](/assets/img/mlops_architecture.png)
 #### System dashboard
 ![dashboard](/assets/img/dashboard.png)
 
 ### book recommendation system
+
+[project repo](https://github.com/YotamAflalo/projects/tree/main/book%20recommendation%20system)
+
 This project implements a Book Recommendation System using Matrix Factorization,One-Class SVM and deep learning. The goal is to provide users with personalized book recommendations based on their preferences and interactions with the system.
 The recommendation system we created is based on a neural network that we builted and trained in TensorFlow, which replicates the Matrix Factorization algorithm, and combines it with signals obtained from the book description, their cover image, and the user's reviews of other books by the same author.
 
 Our product is a recommendation system that is capable of providing accurate and high-quality predictions for the question - which book to recommend to the user, based on his reviews of books he has already read.
 ![books](/assets/img/books.png)
+
+
+### Terraform with AWS Web server
+
+[project repo](https://github.com/YotamAflalo/terraform-AWS-Web-Server-Project/tree/main)
+
+This project uses Terraform to provision a basic web server infrastructure on AWS. It sets up a VPC, subnet, internet gateway, route table, security group, and an EC2 instance running Apache2.
+
 
 ## Publications
 
