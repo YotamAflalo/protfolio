@@ -1,5 +1,5 @@
 title: Yotam Aflalo
-#logo: reletive path
-# description: text below image
+logo: /assets/img/headshot_circle.png
+description: Aspiring Data Scientist with a strong academic foundation and diverse professional experience.
 show_downloads: true
 theme: jekyll-theme-minimal
