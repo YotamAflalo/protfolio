@@ -6,7 +6,7 @@
 - M.S., economics	| The Hebrew University of Jerusalem (_May 2023_)
   grade: 97, Dean's list 2023, graduation with first class honors, and an award of excellence for my thesis work. 			        		
 - B.S., law and economics | The Hebrew University of Jerusalem (_May 2019_),
-  Dean's lists in the years 2016, 2017, 2018.
+  Dean's lists in the years 2016, 2017, 2018
 - Passed lawyers bar exam (_2020_)
 - Practical Data Science - 260 hours, Naya College (_2023_)
 - MLOPS  - 170 hours, Naya College (_2024_)
@@ -68,7 +68,7 @@ System dashboard:
 A personalized book recommendation system combining Matrix Factorization, One-Class SVM, and deep learning. Built using TensorFlow. the system analyzes:
 - User reading history and preferences;
 - Book descriptions and cover images;
-- Author-based user reviews;
+- Author-based user reviews.
 
 The neural network implementation replicates Matrix Factorization while incorporating multiple data signals for accurate, personalized book recommendations based on users' reading history.
 ![books](/assets/img/books.png)
@@ -88,7 +88,7 @@ This projects includes an evaluation script for RAG-based chatbots which assesse
 - Answer accuracy;
 - Question-answer relevance;
 - Hallucination detection;
-- Context chunk selection quality;
+- Context chunk selection quality.
 
 The system provides quantitative metrics to measure RAG performance and identify areas for optimization.
 
