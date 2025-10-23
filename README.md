@@ -13,6 +13,8 @@
 
 #### Non-academic training:
 - **IDF** - Cloud Economic management (Nimbus, AWS, GCP and Azure)
+- **AWS** - AWS Certified Cloud Practitioner 
+- **AWS** - AWS Certified AI Practitioner 
 - **Neo4j graph-academy** - Neo4j Certified Professional
 - **Udmy** - MySQL Bootcamp
 - **Coursera** - Deep Learning Specialization by DeepLearning.AI ( 5 courses)
