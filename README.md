@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Scientist and AI softwere engineer
 
 #### Technical Skills: Python, SQL, AWS, Cypher, NEO4J, R, MLOPS, Docker
 
@@ -9,7 +9,7 @@
   Dean's lists in the years 2016, 2017, 2018
 - Passed lawyers bar exam (_2020_)
 - Practical Data Science - 260 hours, Naya College (_2023_)
-- MLOPS  - 170 hours, Naya College (_2024_)
+- MLOPS  - 235 hours, Naya College (_2024_)
 
 #### Non-academic training:
 - **IDF** - Cloud Economic management (Nimbus, AWS, GCP and Azure)
@@ -20,6 +20,12 @@
 - **Coursera** - Deep Learning Specialization by DeepLearning.AI ( 5 courses)
 
 ## Work Experience
+**Migdal - lead software engineer (ai spesialist) (_March 2025 - present_)**
+- research and development of AI-based systems and agentic solutions for the insurance company Migdal
+- Implementing projects from start to finish in AWS's Kubernetes (EKS) environment, developing systems in Python with Bedrock FM, Bedrock agents, OpenSearch, KMS, S3, and other peripheral tools.
+- Integrating into other developers' projects and establishing evaluation and prompt engineering mechanisms
+- Developing an internal OCR solution and implementing it as a component of the information accessibility project for insurance agents
+
 **Legal Advisor and innovation officer at the IDF (released at the rank of Captain) (_April 2019 - December 2024_)**
 - Took part in developing and implementing technological tools for the legal department within the Azure environment, including  a Retrieval Augmented Generation (RAG) model for addressing legal queries, a summary model and automatic document labeling system. The project received an award of excellence from the chief military attorney general Yifat Tomer Yerushalmi.
 - Legal Advisor specializing in energy, communications, water, quarry, and construction law.
